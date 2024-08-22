@@ -4,10 +4,9 @@ Create an EC2 instance of Ubuntu AMI. Add key-pair. Add ports "80 http" and "443
 It will take couple of minutes to instance get ready. You will see 2/2 checks passed below in Status Check. Now instance is ready to Connect
 
 ## Commands to deploy flask
-![Screenshot (17)](https://github.com/user-attachments/assets/b0ce019b-9e15-4767-ab87-9ba1cbf722ef)
+
 ```bash
 -> sudo apt-get update
-![Screenshot (6)](https://github.com/user-attachments/assets/0793837d-c12a-4c78-a50b-bfbff0d6f2fd)
 ```
 
 Install new python virtual env
@@ -113,19 +112,15 @@ Make the changes at the start of the code above the server
 	server 127.0.0.1:8000;
 }
 ```
-```bash
 ![y](https://github.com/user-attachments/assets/18616c2d-9e2b-4065-b516-a90a90b678da.jpg)
 
-```
 
 And a single line at procy-pass to flaskhelloworld location
 ```bash
 -> proxy_pass http://flaskhelloworld;
-
-
+```
 ![z](https://github.com/user-attachments/assets/2a3e89aa-2566-4a1c-a8ce-09f184e45f2a.jpg)
 
-```
 
 Restart nginx
 ```bash
