@@ -4,6 +4,7 @@ Create an EC2 instance of Ubuntu AMI. Add key-pair. Add ports "80 http" and "443
 It will take couple of minutes to instance get ready. You will see 2/2 checks passed below in Status Check. Now instance is ready to Connect
 
 ## Commands to deploy flask
+![Screenshot (17)](https://github.com/user-attachments/assets/b0ce019b-9e15-4767-ab87-9ba1cbf722ef)
 ```bash
 -> sudo apt-get update
 ![Screenshot (6)](https://github.com/user-attachments/assets/0793837d-c12a-4c78-a50b-bfbff0d6f2fd)
