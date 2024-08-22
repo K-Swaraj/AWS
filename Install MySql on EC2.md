@@ -10,12 +10,12 @@ It will take couple of minutes to instance get ready. You will see 2/2 checks pa
 Install MySQL 
 ```bash
 -> sudo apt install mysql-server 
--> sudo systemctl status MySQL
+-> sudo systemctl status mysql
 ```
 
 Login to MySQL as root
 ```bash
--> sudo MySQL
+-> sudo mysql
 ```
 
 Update the password for root user
