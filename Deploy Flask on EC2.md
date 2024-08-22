@@ -114,7 +114,7 @@ Make the changes at the start of the code above the server
 }
 ```
 
-![y](https://github.com/user-attachments/assets/18616c2d-9e2b-4065-b516-a90a90b678da.jpg)
+![y](https://github.com/user-attachments/assets/18616c2d-9e2b-4065-b516-a90a90b678da)
 
 
 And a single line at procy-pass to flaskhelloworld location
@@ -122,7 +122,7 @@ And a single line at procy-pass to flaskhelloworld location
 -> proxy_pass http://flaskhelloworld;
 ```
 
-![z](https://github.com/user-attachments/assets/2a3e89aa-2566-4a1c-a8ce-09f184e45f2a.jpg)
+![z](https://github.com/user-attachments/assets/2a3e89aa-2566-4a1c-a8ce-09f184e45f2a)
 
 
 Restart nginx
