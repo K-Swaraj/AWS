@@ -11,6 +11,8 @@ It will take couple of minutes to instance get ready. You will see 2/2 checks pa
 -> sudo apt-get update
 ```
 
+![z](https://github.com/user-attachments/assets/2a3e89aa-2566-4a1c-a8ce-09f184e45f2a)
+
 Install new python virtual env
 ```bash
 -> sudo apt-get install python3-venv
