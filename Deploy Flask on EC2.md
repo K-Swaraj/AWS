@@ -6,6 +6,7 @@ It will take couple of minutes to instance get ready. You will see 2/2 checks pa
 ## Commands to deploy flask
 ```bash
 -> sudo apt-get update
+![Screenshot (6)](https://github.com/user-attachments/assets/0793837d-c12a-4c78-a50b-bfbff0d6f2fd)
 ```
 
 Install new python virtual env
