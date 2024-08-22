@@ -34,8 +34,8 @@ Enter the newly created password
 
 ### Create Database, Tables and start working with queries
 
-Create Database company;
 ```bash
+Create Database company;
 use company;
 Create table Employee(id int, Name varchar(50), JOb_Role varchar(50));
 Insert into Employee values (16, 'Swaraj', 'Developer'),(15, 'Vedant', 'Architect');
