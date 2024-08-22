@@ -110,7 +110,8 @@ Make the changes at the start of the code above the server
 -> upstream flaskhelloworld {
 	server 127.0.0.1:8000;
 }
-
+```
+```bash
 ![y](https://github.com/user-attachments/assets/18616c2d-9e2b-4065-b516-a90a90b678da)
 
 ```
