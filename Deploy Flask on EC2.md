@@ -5,13 +5,9 @@ It will take couple of minutes to instance get ready. You will see 2/2 checks pa
 
 ## Commands to deploy flask
 
-![z](https://github.com/user-attachments/assets/2a3e89aa-2566-4a1c-a8ce-09f184e45f2a)
-
 ```bash
 -> sudo apt-get update
 ```
-
-![z](https://github.com/user-attachments/assets/2a3e89aa-2566-4a1c-a8ce-09f184e45f2a)
 
 Install new python virtual env
 ```bash
@@ -71,12 +67,12 @@ Run Gunicorn
 -> gunicorn -b 0.0.0.0:8000 firstProg:app
 ```
 
-### NOTE : While using below command make sure to use your own "directoryname.service"
+### NOTE : While using below command make sure to use your own "directoryName.service"
 Open file 
+```bash
 -> sudo vi /etc/system/system/College.service
 ```
 Add this content and make the changes in the path as per your filename and directory name.
-```bash
 ```bash
 [Unit]
 Description=Gunicorn instance for a simple hello world app
@@ -90,14 +86,15 @@ Restart=always
 [Install]
 WantedBy=multi-user.target
 ```
+
 Save and exit
 Start service
 ```bash
-Start service
 -> sudo systemctl daemon-reload
 -> sudo systemctl start College
 -> sudo systemctl enable College
 ```
+
 Install nginx
 ```bash
 -> sudo apt-get install nginx
@@ -116,6 +113,7 @@ Make the changes at the start of the code above the server
 	server 127.0.0.1:8000;
 }
 ```
+
 ![y](https://github.com/user-attachments/assets/18616c2d-9e2b-4065-b516-a90a90b678da.jpg)
 
 
@@ -123,6 +121,7 @@ And a single line at procy-pass to flaskhelloworld location
 ```bash
 -> proxy_pass http://flaskhelloworld;
 ```
+
 ![z](https://github.com/user-attachments/assets/2a3e89aa-2566-4a1c-a8ce-09f184e45f2a.jpg)
 
 
