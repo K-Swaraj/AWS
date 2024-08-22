@@ -5,6 +5,8 @@ It will take couple of minutes to instance get ready. You will see 2/2 checks pa
 
 ## Commands to deploy flask
 
+![z](https://github.com/user-attachments/assets/2a3e89aa-2566-4a1c-a8ce-09f184e45f2a)
+
 ```bash
 -> sudo apt-get update
 ```
