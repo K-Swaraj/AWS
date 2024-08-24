@@ -16,7 +16,7 @@ jobs:
         run: zip -r code.zip .
       - name: AWS CLI v2
         uses: imehedi/actions-awscli-v2@latest
-        with:
+        with:git
           args: "lambda update-function-code \
             --function-name arn:aws:lambda:ap-south-1:898721452106:function:Lambda_test \
             --zip-file fileb://code.zip"
